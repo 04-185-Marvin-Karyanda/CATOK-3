@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #F5EFEB;
+    color: #2F4156;
     margin: 0;
     padding: 0;
 }
@@ -9,38 +9,41 @@ body {
 .container {
     width: 80%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #2F4156;
     padding: 10px;
     text-align: center;
+    border-radius: 8px 8px 0 0;
 }
 
 nav a {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: #C8D9E6;
 }
 
 h1 {
-    color: #444;
+    color: #2F4156;
     text-align: center;
 }
 
 h2 {
-    color: #555;
+    color: #567C8D;
     margin-top: 20px;
+    border-bottom: 2px solid #C8D9E6;
+    padding-bottom: 5px;
 }
 
 ul {
@@ -59,20 +62,21 @@ table {
 }
 
 table, td {
-    border: 1px solid #ccc;
+    border: 1px solid #C8D9E6;
     padding: 8px;
 }
 
 table tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #F5EFEB;
 }
 
 a {
-    color: #007bff;
+    color: #567C8D;
     text-decoration: none;
 }
 
 a:hover {
+    color: #2F4156;
     text-decoration: underline;
 }
 
@@ -81,6 +85,7 @@ img {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .profile {
